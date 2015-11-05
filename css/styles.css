@@ -1,0 +1,42 @@
+/*
+Color Palette
+Primary (maroon): #8A4A45
+Secondary pale brown:#C1A39E
+Tertiary/Accent Color skin: #C07D85
+
+
+Typography:
+Headlines: font-family: 'Abril Fatface', cursive;
+Body Copy: font-family: 'Merriweather', serif;
+
+backgrounds:
+http://subtlepatterns.com/?s=fashion
+
+*/
+
+/* Global or Sitewide */
+
+body {
+    background-color: #C07D85;
+
+}
+
+/* Typography */
+
+h1,h2 {font-family: 'Abril Fatface', cursive;
+    color: #8A4A45;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p, blockquote {
+    font-family: 'Merriweather', serif;
+    font-size: 1.15em;
+    line-height: 1.5em;
+}
+    
+blockquote {
+font-size: 2em;
+    padding: 0 4em;
+    text-align: center;
+}
